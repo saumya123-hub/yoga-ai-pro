@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: linear-gradient(45deg,#a1ffce,#0072ff);
+  color: white;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  background: #e3f2fd;
+  padding: 20px;
+}
+
+.hero-img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+/* Section */
+.section {
+  padding: 40px;
+  text-align: center;
+}
+
+.light {
+  background: #f1f8ff;
+}
+
+/* Days */
+.days button {
+  margin: 5px;
+  padding: 10px;
+  background: #2196f3;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Planner */
+.planner-box div {
+  margin: 5px;
+  cursor: pointer;
+}
+
+.footer {
+  background: linear-gradient(135deg, #1f2933, #2e7d32);
+  color: white;
+  padding: 40px 20px;
+}
+
+.footer-container {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.footer h2 {
+  margin-bottom: 10px;
+  color: #00e5ff;
+}
+
+.footer-desc {
+  font-size: 15px;
+  color: #cfd8dc;
+  margin-bottom: 20px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.footer-links span {
+  background: rgba(255,255,255,0.1);
+  padding: 8px 15px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.footer-links span:hover {
+  background: #00acc1;
+  cursor: pointer;
+}
+
+.copyright {
+  font-size: 13px;
+  color: #b0bec5;
+}
